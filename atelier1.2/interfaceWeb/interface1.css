@@ -1,0 +1,11 @@
+.header1{
+    display: flex; 
+     justify-content: space-between; 
+}
+.header1 .div1 ul{
+    display: flex; 
+    justify-content: center;
+    margin-right: 25px;
+
+}
+
