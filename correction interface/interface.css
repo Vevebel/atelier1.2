@@ -33,22 +33,27 @@ h1{
 
 #button1{
     background-color: #CEDD3E;
-    padding-top: 2px;  
+    display: flex;
+    /* padding-bottom: 5px;   */
     font-size: 66px; 
-    line-height: 15px;
     text-align: center;
     size: 170px; 
     height :  64px;
     margin-top: 6px;
-}
-.button2, .connexion{
-    font-size: 18px; 
-    width: 50px;
-     padding-top: 22px;
-
     
 }
+.button2{
+    font-size: 18px; 
+    width: 200px;
+     padding-top: 23px; 
+}
+.connexion{
+    font-size: 18px; 
+    width: 100px;
+     padding-top: 22px; 
+}
 #connexi1{
+    display: flex;
     background-color: #374F6C;
     font-size: 66px; 
     /* padding-top: -22px; */
@@ -76,11 +81,16 @@ a {
     margin-left: 80px;
 }
 .a1 {
+    display: flex;
     color: white;
-    border-bottom:2px solid #85C3EA  ;
-    width: 30%; 
+    border-bottom:2px solid #85C3EA;
+    /* width: 30%;  */
+    border-width: 5%;
+    
     margin: 0 ;
 }
+
+
 .a2 {
     color: #85C3EA;
 }
