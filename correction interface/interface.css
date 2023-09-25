@@ -81,13 +81,13 @@ a {
     margin-left: 80px;
 }
 .a1 {
-    display: flex;
+    /* display: flex; */
     color: white;
-    border-bottom:2px solid #85C3EA;
-    /* width: 30%;  */
-    border-width: 5%;
+    border-bottom:2px solid #85C3EA; 
+
+    /* border-width: 5%; */
     
-    margin: 0 ;
+
 }
 
 
