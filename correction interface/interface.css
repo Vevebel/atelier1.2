@@ -25,27 +25,45 @@ a{
    text-decoration: none; 
 }
 .logo{
-    margin-top: -7vh;
+    margin-top: -8vh;
+    padding-left: 50px;
 }
 h1{
-    color:#224361 ;
+    color:#25384F ;
+    font-weight: bold;
+}
+.logostyle{
+    color: #25384F;
+
+}
+.point{
+    color: #85C3E9;
+    font-size: 50px;
 }
 
 #button1{
-    background-color: #CEDD3E;
+    /* background-color: #CEDD3E; */
     display: flex;
     /* padding-bottom: 5px;   */
     font-size: 66px; 
     text-align: center;
-    size: 170px; 
-    height :  64px;
-    margin-top: 6px;
+    /* size: 170px;  */
+    height :  66px;
+    margin-top: 3px;
     
 }
 .button2{
     font-size: 18px; 
     width: 200px;
-     padding-top: 23px; 
+    border: none;
+     /* padding-top: 23px;  */
+     text-align: center;
+     height: 100%;
+     background-color: #CEDD3E;
+}
+.buttonColor{
+    /* color: #85C3E9;
+    text-decoration: none; */
 }
 .connexion{
     font-size: 18px; 
@@ -78,21 +96,21 @@ a {
     text-align: center;
 }
 .recherche{ 
-    margin-left: 80px;
+    margin-left: 60px;
 }
 .a1 {
     /* display: flex; */
     color: white;
-    border-bottom:2px solid #85C3EA; 
+    border-bottom:4px solid #85C3EA; 
 
     /* border-width: 5%; */
-    
-
 }
-
 
 .a2 {
     color: #85C3EA;
+}
+.listeMenu{
+    color: #38587fed;
 }
 
 #affiche{
@@ -101,27 +119,32 @@ a {
     justify-content: space-between;
     text-align: center;
     padding-top: -40px;
-    color: #224361
+    color: #25384F;
  }
 h3 {
     font-size: 45px;  
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 #affiche2{
     display: flex;
     justify-content: center;
-    color: #224361;
+    color: #25384F;
     
 }
 .button3{
     background-color:#CEDD3E ;
-    size: 100px; 
-    height :  50px;
-    color: #224361;
-    margin-bottom: 25px;
+    /* size: 90px;  */
+    height :  80px;
+    color: #25384F;
+    /* margin-bottom: 25px; */
     font-size: 20px;
+    /* padding: 100px; */
+    border: none;
 } 
+.positionBut3{
+    padding-right: 100px;
+}
 .imagA{
     width: 100vh; height: 70vh;
 }
@@ -131,7 +154,12 @@ h3 {
 .contenu{
     font-size: 30px;
 }
+#affich1{
+    padding-left: 50px;
+}
 .para{
-    font-size: 25px;
-    margin-left: 7px;
+    font-size: 20px;
+    margin-left: 16px;
+    text-align: justify;
+    font-style: italic;
 }
